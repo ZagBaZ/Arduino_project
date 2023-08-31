@@ -1,7 +1,8 @@
 # Метеостанция на ESP8266
 ## Wemos D1 + OLED + AHT10
 
-![Image alt](https://github.com/zagbaz/Arduino_project/tree/main/Meteo_Station/images/layout.jpg)
+![layout](https://github.com/zagbaz/Arduino_project/tree/main/Meteo_Station/images/layout.jpg)
+![changelogblack](https://user-images.githubusercontent.com/91951462/136007755-d7fb8881-b59d-4202-abd2-df8f28fa6759.jpg) 
 
 ### Настройки Метеостанции:
 
