@@ -81,16 +81,17 @@ void setup() {
 void oled_temp() {
   oled.clear();
   oled.update();
-  Serial.println(weather.icon);
-  if (weather.icon == "01d") oled.drawBitmap(12, 0, sunny_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
-  else if (weather.icon == "01n") oled.drawBitmap(12, 0, moon_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
-  else if (weather.icon == "02d") oled.drawBitmap(12, 0, clouds_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
-  else if (weather.icon == "02d") oled.drawBitmap(12, 0, clouds_moon_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
-  else if (weather.icon == "03d" || "03n" || "04d" || "04n") oled.drawBitmap(12, 0, tuchi_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
-  else if (weather.icon == "09d" || "09n" || "10d" || "10n") oled.drawBitmap(12, 0, rainy_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
-  else if (weather.icon == "11d" || "11n") oled.drawBitmap(12, 0, thunder_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
-  else if (weather.icon == "13d" || "13n") oled.drawBitmap(12, 0, snow_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
-  else if (weather.icon == "50d" || "50n") oled.drawBitmap(12, 0, mist_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  
+  String icon = weather.icon;
+  if (icon == "01d") oled.drawBitmap(12, 0, sunny_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  else if (icon == "01n") oled.drawBitmap(12, 0, moon_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  else if (icon == "02d") oled.drawBitmap(12, 0, clouds_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  else if (icon == "02d") oled.drawBitmap(12, 0, clouds_moon_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  else if (icon == "03d" || "03n" || "04d" || "04n") oled.drawBitmap(12, 0, tuchi_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  else if (icon == "09d" || "09n" || "10d" || "10n") oled.drawBitmap(12, 0, rainy_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  else if (icon == "11d" || "11n") oled.drawBitmap(12, 0, thunder_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  else if (icon == "13d" || "13n") oled.drawBitmap(12, 0, snow_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
+  else if (icon == "50d" || "50n") oled.drawBitmap(12, 0, mist_32x32, 32, 32, BITMAP_INVERT, BUF_ADD);
   else oled.drawBitmap(12, 0, gradusnik_32x32, 32, 32, BITMAP_INVERT, BUF_ADD); 
 
   oled.setCursor(70, 0); 
