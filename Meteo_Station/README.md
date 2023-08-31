@@ -2,7 +2,7 @@
 ## Wemos D1 + OLED + AHT10
 
 ![layout](https://github.com/zagbaz/Arduino_project/tree/main/Meteo_Station/images/layout.jpg)
-![changelogblack](https://github.com/zagbaz/Arduino_project/tree/main/Meteo_Station/images/layout.jpg) 
+![changelogblack]([https://github.com/zagbaz/Arduino_project/tree/main/Meteo_Station/images/layout.jpg]) 
 
 ### Список отображения:
 
