@@ -1,11 +1,6 @@
 # Метеостанция на ESP8266
 ## Wemos D1 + OLED + AHT10
-
-![layout](https://github.com/zagbaz/Arduino_project/tree/main/Meteo_Station/images/layout.jpg)
-![changelogblack]([https://github.com/zagbaz/Arduino_project/tree/main/Meteo_Station/images/layout.jpg]) 
-
 ![layout](https://github.com/ZagBaZ/Arduino_project/blob/main/Meteo_Station/images/layout.jpg)
-
 ### Список отображения:
 
 - Температура воздуха и осадки
@@ -29,7 +24,6 @@ NTPClient
 ```
 
 ### Схема подключения:
-
-![Image alt](https://github.com/zagbaz/Arduino_project/tree/main/Meteo_Station/images/scheme.jpg)
+![scheme](https://github.com/ZagBaZ/Arduino_project/blob/main/Meteo_Station/images/scheme.jpg)
 
 @zagbaz
