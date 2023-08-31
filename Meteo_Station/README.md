@@ -19,7 +19,7 @@
 ```
 Adafruit_AHT10
 ArduinoJson
-GyverOLEDWIFI
+GyverOLED
 NTPClient
 ```
 
