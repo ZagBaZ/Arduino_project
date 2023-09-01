@@ -9,7 +9,7 @@
 - Скорость ветра и направление
 - Температура и влажность в помещение
 - Время, дата, день недели
- 
+![oled](https://github.com/ZagBaZ/Arduino_project/blob/main/Meteo_Station/images/oled.jpg) 
 ### Настройки Метеостанции:
 
 Для работы метеостанции требуется получить токен на сайте https://openweathermap.org/api.  
