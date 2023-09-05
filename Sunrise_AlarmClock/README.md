@@ -51,6 +51,6 @@ TM1637Display (https://github.com/tehniq3/TM1637-display)
 ```
 
 ### Схема подключения:
-![scheme](hhtps://github.com/ZagBaZ/Arduino_project/blob/main/Sunrise_AlarmClock/images/Scheme.jpg)
+![scheme](https://github.com/ZagBaZ/Arduino_project/blob/main/Sunrise_AlarmClock/images/Scheme.jpg)
 
 @zagbaz
