@@ -5,7 +5,7 @@
 к назначенному времени яркость будет увеличиваться и переходить вначале в желтый цвет,   
 потом в ярко-белый помогая проснуться.  
 
-![layout](https://github.com/ZagBaZ/Arduino_project/blob/main/Sunrise_AlarmClock/images/layout.jpg)
+![layout](https://github.com/ZagBaZ/Arduino_project/blob/main/Sunrise_AlarmClock/images/layout.png)
 
 ## Режимы и настройка времени и будильника:
 Режимы переключаются нажатием кнопки на энкодере:  
@@ -51,5 +51,5 @@ TM1637Display (https://github.com/tehniq3/TM1637-display)
 ```
 
 ### Схема подключения:
-![scheme](https://github.com/ZagBaZ/Arduino_project/blob/main/Sunrise_AlarmClock/images/Scheme.jpg)
+![scheme](https://github.com/ZagBaZ/Arduino_project/blob/main/Sunrise_AlarmClock/images/Scheme.png)
 @zagbaz
