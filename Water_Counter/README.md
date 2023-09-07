@@ -35,7 +35,6 @@ mqtt_port, mqtt_user, mqtt_password.
 ```
 PubSubClient
 GyverTimer
-
 ```
 
 ### Схема подключения:
