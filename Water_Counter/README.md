@@ -4,11 +4,11 @@
 Приложение создано для удаленного получения показаний потребления горячей и холодной  
 воды со счетчиков.
 
-![placing](https://github.com/ZagBaZ/Arduino_project/blob/main/WaterCounter/images/placing.jpg)
+![placing](https://github.com/ZagBaZ/Arduino_project/blob/main/Water_Counter/images/placing.jpg)
 
 ## Установка и настройка приложения
 
-![mobile](https://github.com/ZagBaZ/Arduino_project/blob/main/WaterCounter/images/mobile.jpg)
+![mobile](https://github.com/ZagBaZ/Arduino_project/blob/main/Water_Counter/images/mobile.jpg)
 
 Для получения информации с MQTT сервера использовалось приложение IoTMQQTTPlaner.  
 В настройках устанавливаем:  
@@ -40,5 +40,5 @@ GyverTimer
 ```
 
 ### Схема подключения:
-![scheme](https://github.com/ZagBaZ/Arduino_project/blob/main/WaterCounter/images/sche.jpg)
+![scheme](https://github.com/ZagBaZ/Arduino_project/blob/main/Water_Counter/images/sche.jpg)
 @zagbaz
