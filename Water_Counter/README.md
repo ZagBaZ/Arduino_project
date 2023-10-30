@@ -38,5 +38,5 @@ GyverTimer
 ```
 
 ### Схема подключения:
-![scheme](https://github.com/ZagBaZ/Arduino_project/blob/main/Water_Counter/images/scheme.jpg)
+![scheme](https://github.com/ZagBaZ/Arduino_project/blob/main/Water_Counter/images/scheme.jpg
 @zagbaz
