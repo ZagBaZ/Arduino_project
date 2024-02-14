@@ -16,7 +16,7 @@
 В настройках -> входы настраиваем один из цифровых входов на VINDRIKTNING(например D4),  
 датчики температуры, влажности и давления на шину I2C (для Wemos - D2, D1).
 
-![Tasmota-Conf](https://github.com/ZagBaZ/Arduino_project/blob/main/IKEA_Vindriktning_MQTT/images/Tamosta_conf.png)
+![Tasmota-Conf](https://github.com/ZagBaZ/Arduino_project/blob/main/IKEA_Vindriktning_MQTT/images/Tasmota_conf.png)
 
 далее настраиваем  параметры MQTT-сервера, адрес брокера, порт, логин и пароль.
  
@@ -33,7 +33,7 @@
 
 Включаем, открываем браузер и видим полученные данные от датчиков.
 
-![Tasmota-main](https://github.com/ZagBaZ/Arduino_project/blob/main/IKEA_Vindriktning_MQTT/images/Tamosta_main.png)
+![Tasmota-main](https://github.com/ZagBaZ/Arduino_project/blob/main/IKEA_Vindriktning_MQTT/images/Tasmota_main.png)
 
 
 @zagbaz
